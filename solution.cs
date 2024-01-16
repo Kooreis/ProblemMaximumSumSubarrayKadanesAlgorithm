@@ -1,5 +1,4 @@
-function maxSubArraySum(a, size)
+for (let i = 1; i < size; i++)
 {
-    let max_so_far = a[0];
-    let curr_max = a[0];
+    curr_max = Math.max(a[i], curr_max+a[i]);
 }
